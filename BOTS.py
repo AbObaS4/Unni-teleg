@@ -2,11 +2,11 @@ import logging
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 
-API_TOKEN = '7530243183:AAHinl-7GaTCMzlB6Fni20hc9qIelQ0EWF0'
+TOKEN = '7904632196:AAGkTwBBfZlC4lG0n-bugC07srivYbxSSXA'
 
 logging.basicConfig(level=logging.INFO)
 
-bot = Bot(token=API_TOKEN)
+bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
 @dp.message(Command("start"))
